@@ -34,7 +34,7 @@
 #### 链接和图片
 
 在 Markdown 中插入链接不需要其他按钮，你只需要使用`［显示文本］(链接地址)`这样的格式语法即可。例如：
-[react-md-editor](https://github.com/xiaomoziyi/react-md-editor)
+[md-pre-editor](https://github.com/xiaomoziyi/md-pre-editor)
 插入图片的语法与插入链接的语法很像，只是前面多了一个 `!`.语法如下：
 `![图片的标注](图片链接地址)`
 
@@ -99,4 +99,4 @@ iMac | $1000
 #### 结语
 
 
-以上是最常见的 Markdown 的语法和格式，如果你还希望深入的学习 Markdown，可以参考这里[Markdown语法](https://www.appinn.com/markdown/)，非常感谢使用*react-md-editor*,希望为您提供舒适的写作体验。
+以上是最常见的 Markdown 的语法和格式，如果你还希望深入的学习 Markdown，可以参考这里[Markdown语法](https://www.appinn.com/markdown/)，非常感谢使用*md-pre-editor*,希望为您提供舒适的写作体验。

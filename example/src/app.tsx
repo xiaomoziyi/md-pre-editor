@@ -112,12 +112,12 @@ class App extends Component<{}, IS> {
       <div className={styles.main}>
         <div className={styles.top}>
           <div>
-            <h1>react-md-editor</h1>
+            <h1>md-pre-editor</h1>
           </div>
           <div className={styles.topRight}>
             <a
-              href="https://github.com/xiaomoziyi/react-md-editor"
-              title="https://github.com/xiaomoziyi/react-md-editor"
+              href="https://github.com/xiaomoziyi/md-pre-editor"
+              title="https://github.com/xiaomoziyi/md-pre-editor"
               target="_blank"
             >
               <svg

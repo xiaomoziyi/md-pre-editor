@@ -1,4 +1,4 @@
-# 更新日志(react-md-editor)
+# 更新日志(md-pre-editor)
 
 - 2020-06-01 
   - v1.0.0: 移除emojione支持，保留Tex/Diff/高亮/生成大纲功能，更改计算行数的方式，支持导出MdPreviewer组件，支持直接预览。

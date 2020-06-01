@@ -1,4 +1,4 @@
-# react-md-editor
+# md-pre-editor
 
 > React markdown editor component, support for preview and Tex syntax
 
@@ -10,8 +10,8 @@ Base on [for-editor](https://github.com/kkfor/for-editor) and [for-editor-herb](
 Because there are some problems with both libraries. Convenient for self-learning and exploration, opened this project. Embrace open source, 
 if you like, please give a star to the original project
 
-* [Demo](https://xiaomoziyi.gitee.io/react-md-editor/)
-* [GitHub](https://github.com/xiaomoziyi/react-md-editor)
+* [Demo](https://xiaomoziyi.gitee.io/md-pre-editor/)
+* [GitHub](https://github.com/xiaomoziyi/md-pre-editor)
 
 > Base on `for-editor 0.3.5`
 
@@ -35,7 +35,7 @@ if you like, please give a star to the original project
 
 ```shell
 # npm
-npm install react-md-editor -save
+npm install md-pre-editor -save
 
 ```
 
@@ -304,4 +304,4 @@ class App extends Component {
 
 ## License
 
-react-md-editor is [MIT License](./LICENSE)
+md-pre-editor is [MIT License](./LICENSE)

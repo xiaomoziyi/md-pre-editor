@@ -1,4 +1,4 @@
-# react-md-editor
+# md-pre-editor
 
 > React的markdown编辑器组件，支持预览以及Tex语法
 
@@ -9,8 +9,8 @@
 基于[for-editor](https://github.com/kkfor/for-editor) 以及 [for-editor-herb](https://github.com/HerbertHe/for-editor-herb)开发。
 因为两个库都有一些问题。方便自我进行学习探索，就开了这个项目。拥抱开源，如果你喜欢，请给个star给原项目
 
-* [Demo](https://xiaomoziyi.gitee.io/react-md-editor/)
-* [GitHub](https://github.com/xiaomoziyi/react-md-editor)
+* [Demo](https://xiaomoziyi.gitee.io/md-pre-editor/)
+* [GitHub](https://github.com/xiaomoziyi/md-pre-editor)
 
 > 基于`for-editor 0.3.5`开始构建
 
@@ -34,7 +34,7 @@
 
 ```shell
 # npm
-npm install react-md-editor -save
+npm install md-pre-editor -save
 
 ```
 
@@ -303,4 +303,4 @@ class App extends Component {
 
 ## License
 
-react-md-editor is [MIT License](./LICENSE)
+md-pre-editor is [MIT License](./LICENSE)
