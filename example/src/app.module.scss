@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.main {
+  padding-bottom: 40px;
+
+  h1,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul,
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #fff;
+    background: #080808;
+    .topRight {
+      width: 100px;
+      position: relative;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: center;
+      align-items: center;
+      > select {
+        position: absolute;
+        bottom: 8px;
+        right: 0px;
+        width: 85px;
+      }
+    }
+  }
+
+  .editor {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}

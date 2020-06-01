@@ -1,0 +1,129 @@
+# 更新日志(react-md-editor)
+
+- 2020-06-01 
+  - v1.0.0: 移除emojione支持，保留Tex/Diff/高亮/生成大纲功能，更改计算行数的方式，支持导出MdPreviewer组件，支持直接预览。
+
+> 原更新记录如下:
+
+### for-editor-herb
+- 2020-04-15
+  - v2.3.7: 修复正则表达式
+  - v2.3.6: 修复[#10](https://github.com/HerbertHe/for-editor-herb/issues/10)
+- 2020-04-13
+  - v2.3.5: 更好的计算行号
+  - v2.3.3&2.3.4: 更新[#5](https://github.com/HerbertHe/for-editor-herb/issues/5), [#6](https://github.com/HerbertHe/for-editor-herb/issues/6), [#7](https://github.com/HerbertHe/for-editor-herb/issues/7)
+- 2020-04-10
+  - v2.3.2: 回退行计算方式，将在`v3.0.0`进行重构
+  - v2.3.1: 增补更新
+  - v2.3.0: 支持`==Mark==`语法，修复bug
+  - v2.2.0: 支持行内emoji
+- 2020-04-09
+  - v2.1.2: 新增`cnpm`的badge，移除不必要的依赖
+  - v2.1.1: 移除不必要的依赖
+  - v2.1.0: 更改计算行数的方式，支持溢出计算行数
+  - v2.0.2: 重写预览页面，添加语言切换支持
+  - v2.0.1: 修复`README.md`
+  - v2.0.0: 支持自定义高亮代码块的语言类型
+  - v1.5.0: 支持`GitHub Diff`语法、重写代码块样式、新增代码语言标注
+  - v1.4.4: 移除`mermaid`支持、重写`keyboard text`样式，修复交互逻辑
+- 2020-04-08
+  - v1.4.3: 修复package.json
+  - v1.4.2: 支持繁体中文，日文
+  - v1.4.1: 命名更新
+  - v1.4.0: 支持生成大纲，上下角标插入
+  - v1.3.0: 支持预览大纲锚点导航到渲染DOM
+- 2020-04-07
+  - v1.2.0: 重构完全支持行内Tex公式
+  - v1.1.4: 修复移动端工具栏溢出的问题
+  - v1.1.0 --> v1.1.1
+    - 支持插入列表
+    - 重写heading样式
+- 2020-04-06
+  - `for-editor-herb`建立，`npm`包发布，修改源码若干 `1.0.0 --> 1.0.1 --> 1.0.2`
+- 2020-02-27
+  - 完善响应式布局 [3a90ea60ca82b6eb790503d4efcd81b8d805e566](https://github.com/HerbertHe/for-editor/commit/3a90ea60ca82b6eb790503d4efcd81b8d805e566)
+
+- 2020-02-20
+  - 图标更新 [5eec53ecc24eb6cb9ead35070a7a98863ce2914a](https://github.com/HerbertHe/for-editor/commit/5eec53ecc24eb6cb9ead35070a7a98863ce2914a)
+  - 处理`mermaid`渲染异常 [3282b333eea726715ae5f5cc320ca155eb482a35](https://github.com/HerbertHe/for-editor/commit/3282b333eea726715ae5f5cc320ca155eb482a35)
+
+- 2020-02-19
+  - 更新图标, 生成dist [3b25f9f4987e8faddd347487cf80816bd8ff790e](https://github.com/HerbertHe/for-editor/commit/3b25f9f4987e8faddd347487cf80816bd8ff790e)
+  - 重写`mermaid`解析逻辑 [ffa952c9230112596d2ffb9df1d7f20ea9a9f5f2](https://github.com/HerbertHe/for-editor/commit/ffa952c9230112596d2ffb9df1d7f20ea9a9f5f2)
+
+- 2020-02-18
+  - 新增`折叠块`引入`mermaid` [0a57b82c54e3d918d639fefddb939828539d0eaf](https://github.com/HerbertHe/for-editor/commit/0a57b82c54e3d918d639fefddb939828539d0eaf)
+
+- 2020-02-17
+  - 生成dist [2032aeaa877c7213916fcd407d4f5bee980d330f](https://github.com/HerbertHe/for-editor/commit/2032aeaa877c7213916fcd407d4f5bee980d330f)
+  - 引入`KaTeX`渲染`TeX` [6754db8f3143dfaa555f11cb088743ffce4186bf](https://github.com/HerbertHe/for-editor/commit/6754db8f3143dfaa555f11cb088743ffce4186bf)
+  - 添加左工具栏功能`文本/段落` `表格` `行内代码` [46fb2f4daa09b723fe2784d36b373f2d4ed0c003](https://github.com/HerbertHe/for-editor/commit/46fb2f4daa09b723fe2784d36b373f2d4ed0c003)
+
+- [分支基于 881399ddfd11609eab7a436085749f5b6e6d5394](https://github.com/HerbertHe/for-editor/commit/881399ddfd11609eab7a436085749f5b6e6d5394)
+
+### for-editor
+- 2019-12-11 v0.3.5
+  - 修复双栏，预览，全屏bug [#45](https://github.com/kkfor/for-editor/pull/45)
+- 2019-08-20 v0.3.4
+  - 修复typescrit定义问题 [#36](https://github.com/kkfor/for-editor/issues/35)
+- 2019-08-20 v0.3.2
+  - 修复图片上传bug
+  - 优化typescript d.ts声明 [#35](https://github.com/kkfor/for-editor/issues/35)
+- 2019-08-19 v0.3.1
+  - 添加图片上传功能 [#32](https://github.com/kkfor/for-editor/issues/32)
+  - 优化代码
+- 2019-07-05 v0.3.0
+  - 添加d.ts声明文件，修复bug [#27](https://github.com/kkfor/for-editor/issues/27)
+- 2019-07-03 v0.2.9
+  - 修复bug [#26](https://github.com/kkfor/for-editor/issues/26)
+- 2019-07-03 v0.2.8
+  - 新增预览设置，支持中文、英文
+- 2019-07-01 v0.2.7
+  - 修复bug [#24](https://github.com/kkfor/for-editor/issues/24)
+  - 优化样式
+- 2019-06-21 v0.2.6
+  - 优化一些样式
+- 2019-06-20 v0.2.5
+  - 新增工具栏按钮显示隐藏功能
+  - 优化预览过渡效果
+- 2019-06-19 v0.2.3
+  - 修复双栏模式bug
+- 2019-06-19 v0.2.2
+  - 增加同步滚动功能
+  - 增加双栏模式
+- 2019-06-17 v0.2.1
+  - 修复预览样式bug
+- 2019-06-17 v0.2.0
+  - 重构项目，优化页面结构
+- 2019-02-02 v0.0.12
+  - 修复编辑器自定义高度bug
+- 2019-01-10 v0.0.11
+  - 优化代码预览样式
+- 2019-01-09 v0.0.10
+  - 优化代码结构
+- 2019-01-07 v0.0.9
+  - 新增上一步，下一步，tab快捷键功能
+  - 新增保存功能
+  - 优化图标状态
+  - 优化页面样式
+- 2018-12-29 v0.0.8
+  - 添加行号显示功能
+  - 优化快捷插入标签时，光标选中文本内容
+  - 修复异步加载数据时编辑框回显问题
+  - 优化编辑区域行间距
+- 2018-12-27 v0.0.6
+  - 优化图标按钮
+  - 修改组件UnMount时错误bug
+  - 新增组件placeholder属性
+- 2018-12-26 v0.0.5
+  - 添加上一步，下一步按钮及功能
+- 2018-12-25 v0.0.4
+  - 修复firefox下显示bug
+- 2018-12-24 v0.0.3
+  - 增加全屏功能
+  - 修改onChange参数为输入框内容
+  - 优化编辑框输入字体
+  - 修复快捷插入标签时，滚动条位置bug
+  - 修复firefox下显示问题
+- 2018-12-23 v0.0.0
+  - 编辑器基础功能，快捷插入markdown标签，预览功能
