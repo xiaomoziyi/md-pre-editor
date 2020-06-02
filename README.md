@@ -134,9 +134,9 @@ ReactDOM.render(<App />, document.getElementById('root'))
 | lineNum     | Boolean | true        | 是否显示行号                                                    |
 | style       | Object  | -           | 编辑器样式                                                      |
 | height      | String  | 600px       | 编辑器高度                                                      |
-| preview     | Boolean | false       | 预览模式                                                        |
+| preview     | Boolean | true       | 预览模式                                                        |
 | expand      | Boolean | false       | 全屏模式                                                        |
-| subfield    | Boolean | false       | 双栏模式(预览模式激活下有效)                                       |
+| subfield    | Boolean | true       | 双栏模式(预览模式激活下有效)                                       |
 | language    | String / IWords | en       | 默认语言(支持 zh-CN:中文简体, en:英文, zh-TW: 繁体中文, jp: 日语)，支持按照IWords这个interface本土化       |
 | toolbar     | Object  | 如下         | 自定义工具栏                                                    |
 | outline     | Boolean | true        | 显示Markdown的大纲                                              |

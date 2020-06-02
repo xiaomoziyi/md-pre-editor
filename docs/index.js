@@ -27166,7 +27166,9 @@
                     }, _this.toolBarRightClick = function(type) {
                         var rightClick = {
                             preview: function() {
-                                _this.setState({
+                                _this.state.subfield && _this.setState({
+                                    subfield: !1
+                                }), _this.setState({
                                     preview: !_this.state.preview
                                 });
                             },
@@ -27371,9 +27373,9 @@
                     addImg: function() {},
                     fontSize: "14px",
                     disabled: !1,
-                    preview: !1,
+                    preview: !0,
                     expand: !1,
-                    subfield: !1,
+                    subfield: !0,
                     style: {},
                     toolbar: lib_1.CONFIG.toolbar,
                     language: "zh-CN",

@@ -136,9 +136,9 @@ ReactDOM.render(<App />, document.getElementById('root'))
 | lineNum     | Boolean  | true                        | Show lineNum                                                                                           |
 | style       | Object   | -                           | editor styles                                                                                          |
 | height      | String   | 600px                       | editor height                                                                                          |
-| preview     | Boolean  | false                       | preview switch                                                                                         |
+| preview     | Boolean  | true                       | preview switch                                                                                         |
 | expand      | Boolean  | false                       | fullscreen switch                                                                                      |
-| subfield    | Boolean  | false                       | true: Double columns - Edit preview same screen(notice: preview: true), Single Columns - otherwise not |
+| subfield    | Boolean  | true                       | true: Double columns - Edit preview same screen(notice: preview: true), Single Columns - otherwise not |
 | toolbar     | Object   | As in the following example | toolbars                                                                                               |
 | outline     | Boolean  | true                        | Display outline list for markdown                                                                      |
 | highlight   | Function | Hljs.highlightAuto          | Hljs (highlight.js)'s function --- highlightAuto                                                       |

@@ -12,7 +12,7 @@ import './lib/fonts/katex.css'
 import { CONFIG } from './lib'
 import { outlined, generateTOC } from './lib/helpers/outlined'
 
-export interface IMP {
+interface IMP {
   value: string
   anchor?: boolean
 }
@@ -176,9 +176,9 @@ export class MdEditor extends React.Component<IP, IS> {
     addImg: () => { },
     fontSize: '14px',
     disabled: false,
-    preview: false,
+    preview: true,
     expand: false,
-    subfield: false,
+    subfield: true,
     style: {},
     toolbar: CONFIG.toolbar,
     language: 'zh-CN',
@@ -544,6 +544,12 @@ export class MdEditor extends React.Component<IP, IS> {
   // 右侧菜单
   toolBarRightClick = (type: string): void => {
     const toolbarRightPreviewClick = () => {
+      const { subfield } = this.state
+      if(subfield) {
+        this.setState({
+          subfield: false,
+        })
+      }
       this.setState({
         preview: !this.state.preview
       })
