@@ -278,7 +278,7 @@ class App extends Component {
     const { value } = this.state
 
     return (
-      <Editor
+      <MdEditor
         ref={this.$vm}
         value={value}
         addImg={($file) => this.addImg($file)}
