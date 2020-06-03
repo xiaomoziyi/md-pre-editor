@@ -140,7 +140,6 @@ ReactDOM.render(<App />, document.getElementById('root'))
 | language    | String / IWords | en       | 默认语言(支持 zh-CN:中文简体, en:英文, zh-TW: 繁体中文, jp: 日语)，支持按照IWords这个interface本土化       |
 | toolbar     | Object  | 如下         | 自定义工具栏                                                    |
 | outline     | Boolean | true        | 显示Markdown的大纲                                              |
-| highlight   | Function | Hljs.highlightAuto | Hljs(highlight.js) 的 highlightAuto函数                 |
 | anchor      | Boolean  | true       | 是否在预览的标题显示锚点                                           |
 
 ```js

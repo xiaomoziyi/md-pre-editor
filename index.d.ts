@@ -110,7 +110,6 @@ interface IP {
   anchor?: boolean
   outline?: boolean
   addImg?: (file: File, index: number) => void
-  highlight: () => string
 }
 
 interface IS {
@@ -139,8 +138,8 @@ export declare class MdEditor extends React.Component<IP, IS> {
     style: {}
     toolbar: IToolbar
     language: string | IWords
-    outline: true
-    anchor: true
+    outline: boolean
+    anchor: boolean
   }
 
   $img2Url: (name: string, url: string) => void
