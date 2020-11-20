@@ -77,7 +77,7 @@
   "dependencies": {
     "highlight.js": "^9.13.1",
     "katex": "^0.11.1",
-    "marked": "^0.6.2"
+    "marked": "^1.1.1"
   },
   "directories": {
     "doc": "docs",
