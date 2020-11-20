@@ -56,7 +56,8 @@ const markedRender = (content: string, anchor: boolean): string => {
     // const texBlock = new RegExp('(?<=\\$\\$)[\\s\\S]*?(?=\\$\\$)')
     const texBlock = new RegExp('(\\$\\$+)([^\\$\\$]|[^\\$\\$][\\s\\S]*?[^\\$\\$])\\1(?!\\$\\$)')
     const texInline = new RegExp('(\\$+)([^\\$]|[^\\$][\\s\\S]*?[^\\$])\\1(?!\\$)')
-    
+    const markTag = new RegExp(/\==.+?\==/g)
+
     if (texBlock.test(text)) {
       return latexBlockParse(texBlock.exec(text)[2])
     } else if (texInline.test(text)) {
@@ -65,7 +66,14 @@ const markedRender = (content: string, anchor: boolean): string => {
         text = text.replace(result[0], latexInlineParse(result[2]))
       }
       return `<p>${text}</p>`
-    } else {
+    }  else if (markTag.test(text)) {
+      let back: string = text
+      const markTags: Array<string> = text.match(markTag)
+      markTags.forEach(item => {
+        back = back.replace(item, `<mark>${item.substr(2, item.length - 4)}</mark>`)
+      })
+      return `<p>${back}</p>`
+    }else {
       return `<p>${text}</p>`
     }
   }
